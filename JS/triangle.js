@@ -10,6 +10,8 @@ var AC = A + C;
 var BC = B + C;
 
 //Coditions to meet our specs
+if ((AB < C) || (AC < B) || (BC < A)) {
+		 alert("There is no triangle formed");
 
 
 
