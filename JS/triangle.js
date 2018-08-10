@@ -1,1 +1,13 @@
-function triangle(){}
+function triangle(){
+//USERS INPUT
+
+
+
+
+
+
+
+
+
+
+}
