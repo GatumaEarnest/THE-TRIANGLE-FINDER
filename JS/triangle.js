@@ -6,7 +6,7 @@ var C = parseInt(prompt('sideThree'));
 
 //VARIABLE EQUATION SCHEME
 var AB = A + B;
-
+var AC = A + C;
 
 
 
