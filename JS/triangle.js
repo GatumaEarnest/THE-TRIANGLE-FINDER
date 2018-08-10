@@ -23,7 +23,11 @@ if ((AB < C) || (AC < B) || (BC < A)) {
         		alert("Scalene triangle formed");
         	}
 
+        }
+      }
 
+      //Calling the function
+      //triangle();
 
 
 
