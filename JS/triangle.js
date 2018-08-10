@@ -13,7 +13,9 @@ var BC = B + C;
 if ((AB < C) || (AC < B) || (BC < A)) {
 		 alert("There is no triangle formed");
 
-
+     else if(A === B && B === C){
+     		alert("You have an equilateral triangle");
+     	}
 
 
 
