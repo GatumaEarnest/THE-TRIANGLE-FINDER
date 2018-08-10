@@ -19,7 +19,9 @@ if ((AB < C) || (AC < B) || (BC < A)) {
       else if(A === B || B === C || A===C){
       		alert("You have an isosceles triangle");
       	}
-
+        else {
+        		alert("Scalene triangle formed");
+        	}
 
 
 
