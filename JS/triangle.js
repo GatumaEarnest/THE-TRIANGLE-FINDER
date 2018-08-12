@@ -10,21 +10,28 @@ var AC = A + C;
 var BC = B + C;
 
 //Coditions to meet our specs
-if ((AB < C) || (AC < B) || (BC < A)) {
+	if(A<=0 || B<=0 || C<=0){
+			alert("No triangle can be formed");
+			}
+			else if (AB < C || AC < B|| BC < A) {
 		 alert("There is no triangle formed");
     }
-     else if(A === B && B === C){
+     	else if(A === B && B === C){
      		alert("You have an equilateral triangle");
      	}
-      else if(A === B || B === C || A===C){
+      	else if(A === B || B === C || A===C){
       		alert("You have an isosceles triangle");
       	}
-        else if(A!==B || B!==C ||A!==C){
+				else if (isNaN(A||B||C)){
+					alert("No triangle");
+				}
+        	else if(A!==B || B!==C ||A!==C){
         alert("Scalene triangle formed");
+
         	}
 
 
                     }
 
       //Calling the function
-      //triangle();
+     // triangle();
